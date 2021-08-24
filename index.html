@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div class="logo-container">
+            <img src="src/img/logoPokemon.png" alt="Logo Pokemon">
+        </div>
+        <div class="pokedex-container">
+            <section class="form-container">
+                <form>
+                    <input class="input" id="nombrePokemon" type="text" placeholder="Nombre Pokemon">
+                    <button class="button" type="button" id="button">Buscar</button>
+                </form>
+            </section>
+            <div class="pokemon-name-container">
+                <h2 class="pokemon-name" id="pokemonName"></h2>
+            </div>
+            <section class="pokemon-container">
+                <div class="pokemon-img-container">
+                    <img src="src/img/pokeball.png" alt="Imagen Pokemon" id="imgPokemon">
+                </div>
+                <div class="pokemon-details">
+                    <div class="details-topics">
+                        <p># Pokedex: <span id="pokedex"></span></p>
+                        <p>Tipo: <span id="tipo"></span></p>
+                        <p>Altura: <span id="altura"></span></p>
+                        <p>Peso: <span id="peso"></span></p>
+                    </div>
+
+                </div>
+                
+            </section>
+        </div>
+    </main>
+    <footer>
+        <a href="#"><i class="fab fa-github-square"></i></a>
+    </footer>
+    <script src="https://kit.fontawesome.com/ae6add6e95.js" crossorigin="anonymous"></script>
+    <script src="src/js/script.js"></script>
+</body>
+</html>
