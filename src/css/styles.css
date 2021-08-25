@@ -102,9 +102,18 @@ main {
 footer {
     width: 100%;
     height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
     background-color: #17285E;
 }
+
+.icono {
+    color: white;
+    font-size: 3rem;
+}
+
 @media (min-width: 768px){
     .logo-container {
         display: flex;
